@@ -1,0 +1,9 @@
+com/sensordata/ShellUtils.java
+ com.sensordata.ShellUtils
+ com.sensordata.ShellUtils$CommandResult
+com/sensordata/GpioReaderModule.java
+ com.sensordata.GpioReaderModule
+com/sensordata/BuildConfig.java
+ com.sensordata.BuildConfig
+com/sensordata/GpioReaderPackage.java
+ com.sensordata.GpioReaderPackage

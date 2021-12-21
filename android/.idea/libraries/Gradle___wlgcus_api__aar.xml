@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :wlgcus_api:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d72477260a129e339d77f7efc6f5eaed/transformed/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d72477260a129e339d77f7efc6f5eaed/transformed/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d72477260a129e339d77f7efc6f5eaed/transformed/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

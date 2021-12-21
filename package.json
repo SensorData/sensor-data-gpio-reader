@@ -1,0 +1,76 @@
+{
+  "_from": "sensor-data-gpio-reader",
+  "_id": "sensor-data-gpio-readerr@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-setAApfWU/i/vg3hkMb/KC/paVI2LEjmCHRh2soVSmaksiexy0RUJ5SX/6j7Sad5rmKmzE70O1pdwIHrZkPfSA==",
+  "_location": "/sensor-data-gpio-reader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sensor-data-gpio-reader",
+    "name": "sensor-data-gpio-reader",
+    "escapedName": "sensor-data-gpio-reader",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "author": {
+    "name": "Sebastian Barcelona",
+    "email": "sbarcelona@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sensordata/sensor-data-gpio-reader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Sensor Data GPIO reader",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@types/jest": "^24.0.24",
+    "@types/react-native": "^0.62.0",
+    "@types/react-test-renderer": "16.9.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "react-test-renderer": "16.11.0",
+    "typescript": "^3.8.3"
+  },
+  "homepage": "https://github.com/sensordata/sensor-data-gpio-reader#readme",
+  "jest": {
+    "preset": "react-native"
+  },
+  "keywords": [
+    "react-native",
+    "rfid",
+    "barcode",
+    "uhf"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "index",
+  "name": "ensor-data-gpio-reader",
+  "nativePackage": true,
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensordata/sensor-data-gpio-reader.git",
+    "baseUrl": "https://github.com/sensordata/sensor-data-gpio-reader"
+  },
+  "scripts": {
+    "build": "tsc --skipLibCheck index.ts"
+  },
+  "title": "Sensor Data GPIO reader Project",
+  "version": "1.0.0"
+}
