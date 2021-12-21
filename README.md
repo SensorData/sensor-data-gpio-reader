@@ -11,5 +11,5 @@
 ## Usage
 
 ```javascript
-import RxBluetoothRfidScanner from 'sensor-data-gpio-reader';
+import GPIOReader from 'sensor-data-gpio-reader';
 ```

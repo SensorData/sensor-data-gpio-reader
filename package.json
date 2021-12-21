@@ -50,14 +50,12 @@
   },
   "keywords": [
     "react-native",
-    "rfid",
-    "barcode",
-    "uhf"
+    "gpio"
   ],
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "main": "index",
-  "name": "ensor-data-gpio-reader",
+  "name": "sensor-data-gpio-reader",
   "nativePackage": true,
   "peerDependencies": {
     "react": "^16.8.1",
