@@ -22,7 +22,7 @@ import java.util.concurrent.TimeoutException;
 
 import com.android.wlg.WlgHelper;
 import com.android.wlg.WlgHelper.UpdateReturnCallback;
-
+import android.content.Intent;
 public class GpioReaderModule extends ReactContextBaseJavaModule {
 
     private WlgHelper mWlgHelper = new WlgHelper();
@@ -32,10 +32,12 @@ public class GpioReaderModule extends ReactContextBaseJavaModule {
     private boolean isFirst = true;
 
     private ExecutorService executor = Executors.newSingleThreadExecutor();
+    private final ReactApplicationContext reactContext;
 
 
     GpioReaderModule(ReactApplicationContext context) {
         super(context);
+        this.reactContext = context;
         shellUtils = new ShellUtils();
     }
 
@@ -310,12 +312,12 @@ public class GpioReaderModule extends ReactContextBaseJavaModule {
 
         if(activated) {
             intent.setAction(actionOn);
-            sendBroadcast(intent);
+            this.reactContext.sendBroadcast(intent);
             promise.resolve(true);
         }
         
         intent.setAction(actionOff);
-        sendBroadcast(intent);
+        this.reactContext.sendBroadcast(intent);
         promise.resolve(false);
     }
 
