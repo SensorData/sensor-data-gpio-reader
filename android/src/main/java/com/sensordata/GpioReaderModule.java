@@ -309,16 +309,16 @@ public class GpioReaderModule extends ReactContextBaseJavaModule {
         String actionOn = "com.android.kiosk.ZYZ_CONTROL_KIOSK_ON";
         String actionOff = "com.android.kiosk.ZYZ_CONTROL_KIOSK_OFF";
         Intent intent = new Intent();
-
-        if(activated) {
+        
+        if (!activated) {
+            intent.setAction(actionOff);
+            this.reactContext.sendBroadcast(intent);
+            promise.resolve(false);
+        } else {
             intent.setAction(actionOn);
             this.reactContext.sendBroadcast(intent);
             promise.resolve(true);
         }
-        
-        intent.setAction(actionOff);
-        this.reactContext.sendBroadcast(intent);
-        promise.resolve(false);
     }
 
     /**
